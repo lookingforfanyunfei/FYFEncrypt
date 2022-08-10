@@ -1,0 +1,106 @@
+{
+  "name": "FYFEncrypt",
+  "version": "0.1.0",
+  "summary": "A short description of FYFEncrypt.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/786452470@qq.com/FYFEncrypt",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "786452470@qq.com": "fyf786452470@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lookingforfanyunfei/FYFEncrypt.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "arm64e arm64 armv7 armv7s x86_64",
+    "DEFINES_MODULE": "YES"
+  },
+  "swift_versions": [
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4"
+  ],
+  "static_framework": true,
+  "default_subspecs": [
+    "base64",
+    "md5"
+  ],
+  "dependencies": {
+    "FYFCategory": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "base64",
+      "source_files": [
+        "FYFEncrypt/Classes/base64/*.{h,m}",
+        "FYFEncrypt/Classes/base64/gtm/*.{h,m}"
+      ],
+      "public_header_files": "FYFEncrypt/Classes/base64/*.h"
+    },
+    {
+      "name": "aes",
+      "source_files": [
+        "FYFEncrypt/Classes/aes/*.{h,m}"
+      ],
+      "public_header_files": "FYFEncrypt/Classes/aes/*.h",
+      "dependencies": {
+        "FYFEncrypt/base64": [
+
+        ]
+      }
+    },
+    {
+      "name": "des",
+      "source_files": [
+        "FYFEncrypt/Classes/des/*.{h,m}"
+      ],
+      "public_header_files": "FYFEncrypt/Classes/des/*.h",
+      "dependencies": {
+        "FYFEncrypt/base64": [
+
+        ]
+      }
+    },
+    {
+      "name": "hex",
+      "source_files": [
+        "FYFEncrypt/Classes/hex/*.{h,m}"
+      ],
+      "public_header_files": "FYFEncrypt/Classes/hex/*.h"
+    },
+    {
+      "name": "md5",
+      "source_files": [
+        "FYFEncrypt/Classes/md5/*.{h,m}"
+      ],
+      "public_header_files": "FYFEncrypt/Classes/md5/*.h"
+    },
+    {
+      "name": "rsa",
+      "source_files": [
+        "FYFEncrypt/Classes/rsa/*.{h,m,mm}"
+      ],
+      "public_header_files": "FYFEncrypt/Classes/rsa/*.h",
+      "libraries": "c++",
+      "dependencies": {
+        "FYFOpenSSL": [
+
+        ],
+        "FYFEncrypt/hex": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.4"
+}

@@ -1,0 +1,49 @@
+PODS:
+  - FYFCategory (0.1.5)
+  - FYFEncrypt (0.1.0):
+    - FYFCategory
+    - FYFEncrypt/base64 (= 0.1.0)
+    - FYFEncrypt/md5 (= 0.1.0)
+  - FYFEncrypt/aes (0.1.0):
+    - FYFCategory
+    - FYFEncrypt/base64
+  - FYFEncrypt/base64 (0.1.0):
+    - FYFCategory
+  - FYFEncrypt/des (0.1.0):
+    - FYFCategory
+    - FYFEncrypt/base64
+  - FYFEncrypt/hex (0.1.0):
+    - FYFCategory
+  - FYFEncrypt/md5 (0.1.0):
+    - FYFCategory
+  - FYFEncrypt/rsa (0.1.0):
+    - FYFCategory
+    - FYFEncrypt/hex
+    - FYFOpenSSL
+  - FYFOpenSSL (0.1.0)
+
+DEPENDENCIES:
+  - FYFEncrypt (from `../`)
+  - FYFEncrypt/aes (from `../`)
+  - FYFEncrypt/des (from `../`)
+  - FYFEncrypt/hex (from `../`)
+  - FYFEncrypt/md5 (from `../`)
+  - FYFEncrypt/rsa (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FYFCategory
+    - FYFOpenSSL
+
+EXTERNAL SOURCES:
+  FYFEncrypt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FYFCategory: 38302e7ca717ac37570e668a3767fb486a50b20d
+  FYFEncrypt: 8b4a59cf36f82b9633bddd2987774755ef58fe3a
+  FYFOpenSSL: 9f32545bbe4b522dd08e10c00bccb4e17b1bf103
+
+PODFILE CHECKSUM: 2aef4bb51220ee4b1588b0d9681116d950b8684a
+
+COCOAPODS: 1.11.3

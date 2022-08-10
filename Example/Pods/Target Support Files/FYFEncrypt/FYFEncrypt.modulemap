@@ -1,0 +1,6 @@
+framework module FYFEncrypt {
+  umbrella header "FYFEncrypt-umbrella.h"
+
+  export *
+  module * { export * }
+}

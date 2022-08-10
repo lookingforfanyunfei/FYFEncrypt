@@ -1,0 +1,1577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		99F78A3A0AA605D3995FE29E6B134434 /* FYFOpenSSL */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7BFBDCD041B4D086C6F9200EFF95E0AA /* Build configuration list for PBXAggregateTarget "FYFOpenSSL" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FYFOpenSSL;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00773AEB4A7CC62AE26465AECCC9AFB7 /* UITabBarItem+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A9BCE15D0E6AACFB80865C9B6DBDD985 /* UITabBarItem+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AD861AE8A6D4A52F4F3E0942DAAFA36 /* UIColor+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D69024C1F006DE5366D8A3F3B267DE5D /* UIColor+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3D395D4490D866FB9F6EAFD13BB399 /* NSDecimalNumber+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C68E27BD55B82C3638D8365A94468375 /* NSDecimalNumber+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13DBDEAEC28398D67E4F42DADC011EFE /* NSFileManager+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 596897E37281318B8EA82BB8515E9FEC /* NSFileManager+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1466B969767C390078F0D1A74E5CC446 /* FYFEncrypt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4D650032B9485B774C41A207BF109E /* FYFEncrypt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17EBA6EA047350FA993420916AE3D76C /* FYFBase64Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA56367E1FEE88F7255B863F192BC36 /* FYFBase64Helper.m */; };
+		1A857634C6DADB61890A6205DEB43DB7 /* FYFDesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 40999536E069F4A8CEBC4A28DC3922BE /* FYFDesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CE1DCEAA7C65A1982336C75E03E3D27 /* FYFHexHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B361B3B1EC1DB63F5E9AE0DD3453060A /* FYFHexHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202EA6F32234B0B3F5A84057AF50C7FF /* Pods-FYFEncrypt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F4A7AA26B8EF77552A39F86F9DAAB6 /* Pods-FYFEncrypt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274CA53173C963289B6109ECD502B479 /* FYFCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B93ED3AA39FEDB3D6BEEB2C1B0769C51 /* FYFCategory-dummy.m */; };
+		2BB3E8BDB8F06D23AA6B5D975A52C56C /* NSArray+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 85024B2C684C6AFD9AA20F1423EA0144 /* NSArray+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F720F36C09CDF955A746617125C4F8F /* NSDecimalNumber+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B24C91E6DDD4843A86AB8E946F2017 /* NSDecimalNumber+FYFExtension.m */; };
+		3393EA2670F51090FCF50FAE9E964464 /* UITabBarItem+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E0DD3F877D603E9970DABC5BE9E5F /* UITabBarItem+FYFExtension.m */; };
+		39624E061A55AB538F99F3BB92AF997E /* Pods-FYFEncrypt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C59731CF8AEC3669B3A8DE0D1DE003E5 /* Pods-FYFEncrypt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39695494976B7CBAE98DF25ABB5C6873 /* UILabel+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B45A41C1166EF2171AB797D14B36510A /* UILabel+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BA14605A44622F69A821E6E56D6CD5D /* Pods-FYFEncrypt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B90096DDA6DD1002262898824CB53E0 /* Pods-FYFEncrypt_Tests-dummy.m */; };
+		42A62629C3F60E44777F9EED770D8CFC /* FYFCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A5481B3078491E51B87621D9528DA02F /* FYFCommonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		461771ED637E7811316E4CE61F772983 /* FYFAesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 995FBFA57774B0A669627D5D5A4E01B8 /* FYFAesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A0B6FBB903D4DBD4E831B48C716B66 /* FYFCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 246702866A51BA0C03B0711F60C8ED73 /* FYFCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4926CED51DD3FF176A0D16E5416C0D95 /* NSDictionary+FYFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4996FB399A68BD86E38EDB8981A5661A /* NSDictionary+FYFSafe.m */; };
+		55A35162216A8744D03299CA087F6E6A /* UILabel+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B4D5086E379C08617F8F78CBAEF702 /* UILabel+FYFExtension.m */; };
+		58C02434414D984AF8B5654BC6CFD261 /* FYFCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D41E8BA221C881A1929C77377F0F213 /* FYFCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AC9DF10DA97D46BAC29AE5C5D37F5A6 /* UIImage+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FE26D602250BC17C81098C0BA7C03689 /* UIImage+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60EEF64CA90E1117B3F89EA37E724B10 /* FYFRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B1C28B656A18145F52AA65DBBE5D12 /* FYFRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6126917C29DC5B6363FCFD988B55F218 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		665E43CD8F63A31B8318A7453EBB569E /* CALayer+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00B0B9B745781172ECF4B46694311D /* CALayer+FYFExtension.m */; };
+		67E3AD1C6D6F369BF1DE340BDAEE97F3 /* NSDate+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1BCFC3DB88097FF4CCD0BBD5A9E540 /* NSDate+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C13B02CEEDE62259BF1C3DA4C23349 /* UIImage+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1C81A491071A214A941664F3AEC9CC /* UIImage+FYFExtension.m */; };
+		6F22A387B3F5F8DB7220C5629181C345 /* NSString+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3129FE8C02BCED57EC9EC920E06E707E /* NSString+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70AC36A74FBA20224CF1DED0A61DB479 /* Pods-FYFEncrypt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7AAAC7C61679907AA2FA80090BAE8 /* Pods-FYFEncrypt_Example-dummy.m */; };
+		768917E65005D3B12F375510A915B115 /* NSObject+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABD67B6E71B32B6F26859B6F6CD0A76 /* NSObject+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B705055497932B3AD8A215A70EF309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7A81768F3B9F630617886926BF414697 /* NSDate+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE52D189731B17B996A327B0DEC3F4F /* NSDate+FYFExtension.m */; };
+		7D9B882D2161B77968EA9F6B926D5EE2 /* FYFGTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD8262979555BBA79C812281DBE370A /* FYFGTMBase64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F5B6774DC23B6138C8F68C011DC10E6 /* NSObject+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D93439F49AFBA69574E97E66904FD83E /* NSObject+FYFExtension.m */; };
+		804D29A8A416F291783F3EF8B3B189FC /* FYFGTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5808A871468BBB2F13CA8115985D8B3F /* FYFGTMDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8347C5CAAD8FB60E97FCC6BD9E73A71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8443B961F33B287BC6C2B3ADD78C1BA7 /* NSMutableAttributedString+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0025F85784E0B98DBE5D3E38F3C435 /* NSMutableAttributedString+FYFExtension.m */; };
+		8683394F5058954C3F3732D546B22848 /* FYFBase64Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 064D4E40CC6565F9BE897B0AA2A96F59 /* FYFBase64Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B94C3671A390DF5A678618AF342307A /* FYFAesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 915A173FC45764F43D10423EA10E7BC0 /* FYFAesHelper.m */; };
+		8C21EC5F7E4A971017E4CC1EC393815F /* FYFGTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D7630AB2AD513943410E205A5CA52094 /* FYFGTMBase64.m */; };
+		940666980EBC295D4A15AF9EB1FC5F21 /* UIBarButtonItem+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C47A884A6297E450CFB41B49B1B786 /* UIBarButtonItem+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97F0E75DF1ECE092C0A05BC93D6497D6 /* UIScreen+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4129FAD0C5712FE38FB00005D98F303A /* UIScreen+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01B2D44F124FF5575EA09324CA4E29A /* UIScreen+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D01CA2F1D315C5E4A8D5024286A313 /* UIScreen+FYFExtension.m */; };
+		A6EE653F02B9F9F684F8ED25892EBE53 /* FYFRSA.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDAE838A506B41CED85A237BB12212 /* FYFRSA.mm */; };
+		A81D4AF1E9167553D2365ADFE3152283 /* FYFRsaHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FA637DC318EFC2C6E21E9149F8256CC2 /* FYFRsaHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A97333DD651AC518711E27DD4C10400A /* UIView+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3654A793230DE6C88EB7DAAE59EB3191 /* UIView+FYFExtension.m */; };
+		B402190D3E27038713B92D385DFF3D8E /* NSMutableDictionary+FYFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7843080CFA2DD3F0B0975939026EF /* NSMutableDictionary+FYFSafe.m */; };
+		B66EF5A2E33A64117BF237FBDAB78F76 /* NSMutableAttributedString+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5135680321451634D6640FFD6B79DAD9 /* NSMutableAttributedString+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73CC988D5B171A60E8936ED79DD4E64 /* NSArray+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EED1E68F568F382797868E32F8E5C974 /* NSArray+FYFExtension.m */; };
+		C7722D7480123A0FAF049A0742565BBD /* FYFDesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EBCB74FF50B4D376EE8D704FEA434 /* FYFDesHelper.m */; };
+		C7C03397C2A384D736EC20766D84DB6D /* NSFileManager+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1439878BE861CB8F9AD769EFF538CA04 /* NSFileManager+FYFExtension.m */; };
+		CAA88F57FD344F6ABC909541F3F9AD3A /* FYFHexHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E103FC340737901FC7D8497A286505CE /* FYFHexHelper.m */; };
+		CB69A2165C5DA391DDA57626DBBE2BC7 /* NSString+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B440418522CBEA37098F5C170010C873 /* NSString+FYFExtension.m */; };
+		D0DA75B62E8FC90E7AABC7AB6288644A /* CALayer+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CF4FF1E59CCF6536E6F63B88B52B1F /* CALayer+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7B73C5BA24BE09D3223F9DCDD3CA742 /* NSDictionary+FYFSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1C1850B7C53CE9D810D0F82AE1FDF1 /* NSDictionary+FYFSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1464256C2170D8496595BA1BE38E8C /* UIBarButtonItem+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C744B25AB509F9AFB24EFAC0E0F9BED1 /* UIBarButtonItem+FYFExtension.m */; };
+		DF19F69E378AD15DE1D424F77AD7FC07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DFC7877D75587FE2F85D006D62470788 /* UIButton+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DE21D6D42AEE5DFADC6D731875BBCC86 /* UIButton+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E362CF3C3F1A5366235A31D6E8484DAD /* UIColor+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DE9B4762D497F1067CAF3FCC3F0F30 /* UIColor+FYFExtension.m */; };
+		E368EF8C7D59358FC5C1DEFD44305F8C /* FYFRsaHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9B15BBAF927A3B0A4F406B6EBB99A71 /* FYFRsaHelper.mm */; };
+		E5B3B1F1E0FC2488BC7A0BC2AFD01DDD /* NSMutableDictionary+FYFSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF017CAA1ECD6ADE17A2262CF4909F8 /* NSMutableDictionary+FYFSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7CE580C94C245A3378D92974E7640AB /* FYFEncrypt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BEADB94734569443F63E898AC86EAC /* FYFEncrypt-dummy.m */; };
+		E7DAE3B4CA75B958455685439C887463 /* FYFMD5Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 511FE6D870D0EC26BE22284CBE79233A /* FYFMD5Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA442F2CBB49F1F145927CD0290D1886 /* UIView+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DF51EA18D408E228B6A98A13AD878320 /* UIView+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE6A266CF6B7F47CE4A147A3E082D9D8 /* UIButton+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B776A2F95E72124E436D3453FB7B39 /* UIButton+FYFExtension.m */; };
+		EFE0BA39D44F1AF15B25CF56AF41DAB1 /* NSData+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AB11F63CA30B934940228DDFD8D3697B /* NSData+FYFExtension.m */; };
+		EFE58B7245419DCEF2798B4DD84E0D40 /* UIFont+FYFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3D6FC22194976D7A04A7C2A8DA051C /* UIFont+FYFExtension.m */; };
+		F1991E83DAA173677E2821B9AA22E59E /* FYFMD5Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A023D3C24B77282D6A3A270A4BBA3F /* FYFMD5Helper.m */; };
+		F6125FFB91CF22B07AEA82092334D974 /* NSData+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F936A0584552AEED60592415904956C4 /* NSData+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62D1049F983F3F3AFC543A852541396 /* UIFont+FYFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B03E130BCA01B8F8840D9F28B255AF /* UIFont+FYFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9D7851134A5CC8DA863C9372E0F1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F78A3A0AA605D3995FE29E6B134434;
+			remoteInfo = FYFOpenSSL;
+		};
+		545EB87B0DAA99572D6E37E27585F5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094F2AC341235013908D0347A236F32E;
+			remoteInfo = FYFCategory;
+		};
+		557C050862FCA612DB9129AEA70BFA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094F2AC341235013908D0347A236F32E;
+			remoteInfo = FYFCategory;
+		};
+		868B3EAAE691B20558E20652886C4DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D168BD2F4AB95FF99F3C3949129142D;
+			remoteInfo = FYFEncrypt;
+		};
+		B60456123165D12C3CC256F3ED0DD990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32561766C2F6680B4D3B62563D7EA4F8;
+			remoteInfo = "Pods-FYFEncrypt_Example";
+		};
+		F4D64D4CCA9D10D40A365F21F41CA265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F78A3A0AA605D3995FE29E6B134434;
+			remoteInfo = FYFOpenSSL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002E6489266AC16C29A752D4916F8419 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/bio.h; sourceTree = "<group>"; };
+		0097116C5194D1DC5C2856E27CB61C8C /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/engine.h; sourceTree = "<group>"; };
+		02BE289AF5C535F912EDC92CE76A0974 /* rsaerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsaerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/rsaerr.h; sourceTree = "<group>"; };
+		039429AE2D5B433A385E0D0A51090E0E /* FYFEncrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFEncrypt.debug.xcconfig; sourceTree = "<group>"; };
+		064D4E40CC6565F9BE897B0AA2A96F59 /* FYFBase64Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFBase64Helper.h; path = FYFEncrypt/Classes/base64/FYFBase64Helper.h; sourceTree = "<group>"; };
+		08AB283E1FEA4B0925A43CC62F031115 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/srtp.h; sourceTree = "<group>"; };
+		08C140DACF5A0D5A24C802F4A3B6C1E6 /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/opensslv.h; sourceTree = "<group>"; };
+		0A56B9ACB637D7F6872EB69FB2CE4FF7 /* FYFCategory */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FYFCategory; path = FYFCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB00248DEB7EA0D94EE8A4711C7DB98 /* asn1err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1err.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/asn1err.h; sourceTree = "<group>"; };
+		0C76713D5B526EA4AA04AC8B1EAC16E4 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/opensslconf.h; sourceTree = "<group>"; };
+		0CB07A64D0926E8EB465AD997258C143 /* Pods-FYFEncrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFEncrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0CF017CAA1ECD6ADE17A2262CF4909F8 /* NSMutableDictionary+FYFSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+FYFSafe.h"; path = "FYFCategory/Classes/Foundation/NSMutableDictionary+FYFSafe.h"; sourceTree = "<group>"; };
+		0DC482FC5DB59D34623A43885552816D /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/pem.h; sourceTree = "<group>"; };
+		0E1BCFC3DB88097FF4CCD0BBD5A9E540 /* NSDate+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+FYFExtension.h"; path = "FYFCategory/Classes/Foundation/NSDate+FYFExtension.h"; sourceTree = "<group>"; };
+		0FEFFE6787A617125FBB56FA2E055CFC /* Pods-FYFEncrypt_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFEncrypt_Example-Info.plist"; sourceTree = "<group>"; };
+		113D8073EC604595E8496212CA8ADA0D /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/rc4.h; sourceTree = "<group>"; };
+		11A1820C581B11DA1EC8EDAFDE3E70FF /* FYFOpenSSL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFOpenSSL.debug.xcconfig; sourceTree = "<group>"; };
+		124073B26101570479297EB19F42995A /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/comp.h; sourceTree = "<group>"; };
+		126C9589A6D6992A4C6989ECC0667FF9 /* FYFOpenSSL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFOpenSSL.release.xcconfig; sourceTree = "<group>"; };
+		12E4B9C467E363418443FC555998F0BE /* randerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = randerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/randerr.h; sourceTree = "<group>"; };
+		143160109CE0470D26574A5DFB417E50 /* Pods-FYFEncrypt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYFEncrypt_Example.modulemap"; sourceTree = "<group>"; };
+		1439878BE861CB8F9AD769EFF538CA04 /* NSFileManager+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+FYFExtension.m"; path = "FYFCategory/Classes/Foundation/NSFileManager+FYFExtension.m"; sourceTree = "<group>"; };
+		14E185364EFC6D050AF719826EDDB422 /* kdferr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdferr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/kdferr.h; sourceTree = "<group>"; };
+		167DFCE3FECF9EF331457295CA5FD0B3 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/blowfish.h; sourceTree = "<group>"; };
+		1A6318BF539ABF49993A2F51F478EDEF /* buffererr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffererr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/buffererr.h; sourceTree = "<group>"; };
+		1A985928D3AFCF1A0BB338F4E7347938 /* Pods-FYFEncrypt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFEncrypt_Tests-Info.plist"; sourceTree = "<group>"; };
+		1A9AF95DDE0B2B3C903A672CAD0938C9 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/aes.h; sourceTree = "<group>"; };
+		1ABD67B6E71B32B6F26859B6F6CD0A76 /* NSObject+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FYFExtension.h"; path = "FYFCategory/Classes/Foundation/NSObject+FYFExtension.h"; sourceTree = "<group>"; };
+		1B90096DDA6DD1002262898824CB53E0 /* Pods-FYFEncrypt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYFEncrypt_Tests-dummy.m"; sourceTree = "<group>"; };
+		1C0A0E6FCF1FFF2DC3F3A1B0BC71CE01 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/txt_db.h; sourceTree = "<group>"; };
+		224914E79169A5CB8AE03B6A9E870D6E /* pemerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pemerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/pemerr.h; sourceTree = "<group>"; };
+		246702866A51BA0C03B0711F60C8ED73 /* FYFCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFCategory-umbrella.h"; sourceTree = "<group>"; };
+		276AA2E5CD76A6A4AB686FCC3678C9B6 /* FYFEncrypt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYFEncrypt-Info.plist"; sourceTree = "<group>"; };
+		27B8E1D2369D4AA7923C83B5768DB411 /* conferr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conferr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/conferr.h; sourceTree = "<group>"; };
+		2A36C7AECB7BA2C854425102047C7741 /* ecerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ecerr.h; sourceTree = "<group>"; };
+		2DC85DAA28F7F7BAF2850F6C1AF7E7F2 /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/rsa.h; sourceTree = "<group>"; };
+		2F741918B3F6D7243CA2D0FC999B3410 /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/bn.h; sourceTree = "<group>"; };
+		3129FE8C02BCED57EC9EC920E06E707E /* NSString+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FYFExtension.h"; path = "FYFCategory/Classes/Foundation/NSString+FYFExtension.h"; sourceTree = "<group>"; };
+		321206E8AC76C9E356D3F459BD02BB57 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/stack.h; sourceTree = "<group>"; };
+		341AF505992E692330261929113907ED /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/camellia.h; sourceTree = "<group>"; };
+		344B934CE33389470FF95ECF1037EFFA /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/des.h; sourceTree = "<group>"; };
+		34E79CC9C4CD3AB119A998B4B32F44F7 /* Pods-FYFEncrypt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYFEncrypt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3654A793230DE6C88EB7DAAE59EB3191 /* UIView+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FYFExtension.m"; path = "FYFCategory/Classes/UIKit/UIView+FYFExtension.m"; sourceTree = "<group>"; };
+		3701BECE67247FB1086492E9E8F69A8B /* comperr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comperr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/comperr.h; sourceTree = "<group>"; };
+		37F4A7AA26B8EF77552A39F86F9DAAB6 /* Pods-FYFEncrypt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYFEncrypt_Tests-umbrella.h"; sourceTree = "<group>"; };
+		38BD9EB24279B8B624BB1A82CB2B77A8 /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/cast.h; sourceTree = "<group>"; };
+		395EFF70BB8C5D43C293F8D8599C66CD /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ebcdic.h; sourceTree = "<group>"; };
+		3AFDAE838A506B41CED85A237BB12212 /* FYFRSA.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FYFRSA.mm; path = FYFEncrypt/Classes/rsa/FYFRSA.mm; sourceTree = "<group>"; };
+		3AFFD5716F0DC85589EF629F680BDF74 /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ssl.h; sourceTree = "<group>"; };
+		3B63A3E1F69E6838C3E70C0DDE50EDAB /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ssl2.h; sourceTree = "<group>"; };
+		3BC80A5EB532046981794769B32C0845 /* OpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenSSL.framework; path = FYFOpenSSL/Framework/OpenSSL.framework; sourceTree = "<group>"; };
+		3DF935EEBE5062547FFD8D39A59743A7 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ui.h; sourceTree = "<group>"; };
+		40999536E069F4A8CEBC4A28DC3922BE /* FYFDesHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFDesHelper.h; path = FYFEncrypt/Classes/des/FYFDesHelper.h; sourceTree = "<group>"; };
+		40B1C28B656A18145F52AA65DBBE5D12 /* FYFRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFRSA.h; path = FYFEncrypt/Classes/rsa/FYFRSA.h; sourceTree = "<group>"; };
+		4129FAD0C5712FE38FB00005D98F303A /* UIScreen+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+FYFExtension.h"; path = "FYFCategory/Classes/UIKit/UIScreen+FYFExtension.h"; sourceTree = "<group>"; };
+		418F3AB2DC755B057CD2C3A53F5B7862 /* md2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md2.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/md2.h; sourceTree = "<group>"; };
+		4287BD042623BA6A1BB06A9326D819E1 /* rand_drbg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand_drbg.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/rand_drbg.h; sourceTree = "<group>"; };
+		443E0DD3F877D603E9970DABC5BE9E5F /* UITabBarItem+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+FYFExtension.m"; path = "FYFCategory/Classes/UIKit/UITabBarItem+FYFExtension.m"; sourceTree = "<group>"; };
+		44D3FFCB748DCB2C3D2F12F7085DAC34 /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/tls1.h; sourceTree = "<group>"; };
+		45A75D3A8C3C07B2A0DE3FD65D6BE412 /* Pods-FYFEncrypt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFEncrypt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		45BEAA198839832E2DB3564108B0942E /* rc5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc5.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/rc5.h; sourceTree = "<group>"; };
+		468EB139F7D1BD31BCBD2DC1BF96F362 /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/lhash.h; sourceTree = "<group>"; };
+		481F272AA8FD1052F203FB550DC6FB9D /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/err.h; sourceTree = "<group>"; };
+		4996FB399A68BD86E38EDB8981A5661A /* NSDictionary+FYFSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+FYFSafe.m"; path = "FYFCategory/Classes/Foundation/NSDictionary+FYFSafe.m"; sourceTree = "<group>"; };
+		4A7C1D7E12945279E58B73FCCC690C39 /* Pods-FYFEncrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFEncrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4EA216CEC0912862DF4510B5067E4BF8 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/rand.h; sourceTree = "<group>"; };
+		4FF0A43AFC81CCFCB3C982C5F3A84961 /* OpenSSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenSSL.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/OpenSSL.h; sourceTree = "<group>"; };
+		511FE6D870D0EC26BE22284CBE79233A /* FYFMD5Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFMD5Helper.h; path = FYFEncrypt/Classes/md5/FYFMD5Helper.h; sourceTree = "<group>"; };
+		5135680321451634D6640FFD6B79DAD9 /* NSMutableAttributedString+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+FYFExtension.h"; path = "FYFCategory/Classes/Foundation/NSMutableAttributedString+FYFExtension.h"; sourceTree = "<group>"; };
+		520D7FCEC9B1DE25261C101A4E58A942 /* x509v3err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3err.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/x509v3err.h; sourceTree = "<group>"; };
+		541D3D5966C19737167D5D37703B6F10 /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/idea.h; sourceTree = "<group>"; };
+		54FD069D089BABE949BEB2412DF63BF7 /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/seed.h; sourceTree = "<group>"; };
+		558B90A9B2778AF3F547F056FD034350 /* Pods-FYFEncrypt_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FYFEncrypt_Example"; path = Pods_FYFEncrypt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		572434F7D548D472F77FE448B999799B /* cryptoerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cryptoerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/cryptoerr.h; sourceTree = "<group>"; };
+		5808A871468BBB2F13CA8115985D8B3F /* FYFGTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FYFGTMDefines.h; sourceTree = "<group>"; };
+		58B7843080CFA2DD3F0B0975939026EF /* NSMutableDictionary+FYFSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+FYFSafe.m"; path = "FYFCategory/Classes/Foundation/NSMutableDictionary+FYFSafe.m"; sourceTree = "<group>"; };
+		596897E37281318B8EA82BB8515E9FEC /* NSFileManager+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+FYFExtension.h"; path = "FYFCategory/Classes/Foundation/NSFileManager+FYFExtension.h"; sourceTree = "<group>"; };
+		5A91FC63E9A3817D6DCB7C828FE5116A /* FYFCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFCategory.release.xcconfig; sourceTree = "<group>"; };
+		5C5A0B49B7E734834B491B71A0784068 /* dsaerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsaerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/dsaerr.h; sourceTree = "<group>"; };
+		60D9FDD2CF06EDED4E98B1ABA82DC598 /* Pods-FYFEncrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFEncrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		61736A47FCEA2C7EADC06006A578D3F1 /* FYFEncrypt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYFEncrypt.modulemap; sourceTree = "<group>"; };
+		62A023D3C24B77282D6A3A270A4BBA3F /* FYFMD5Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYFMD5Helper.m; path = FYFEncrypt/Classes/md5/FYFMD5Helper.m; sourceTree = "<group>"; };
+		62E6D45D3A1290EBFB945FA5088B8F13 /* cterr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cterr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/cterr.h; sourceTree = "<group>"; };
+		650840D921E2CA3FB7671B26EE374EFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		67B03E130BCA01B8F8840D9F28B255AF /* UIFont+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+FYFExtension.h"; path = "FYFCategory/Classes/UIKit/UIFont+FYFExtension.h"; sourceTree = "<group>"; };
+		682C4D55615705BCE251FC385D22FC5E /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/conf.h; sourceTree = "<group>"; };
+		696628ABA70077DD1581854314000964 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ossl_typ.h; sourceTree = "<group>"; };
+		6CAAECE864F61E1DFE7D3BA4D9389385 /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/mdc2.h; sourceTree = "<group>"; };
+		6D1C1850B7C53CE9D810D0F82AE1FDF1 /* NSDictionary+FYFSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+FYFSafe.h"; path = "FYFCategory/Classes/Foundation/NSDictionary+FYFSafe.h"; sourceTree = "<group>"; };
+		6D41E8BA221C881A1929C77377F0F213 /* FYFCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFCategory.h; path = FYFCategory/Classes/FYFCategory.h; sourceTree = "<group>"; };
+		704FAB856A17AF25A786563394631E7C /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ripemd.h; sourceTree = "<group>"; };
+		70C47A884A6297E450CFB41B49B1B786 /* UIBarButtonItem+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+FYFExtension.h"; path = "FYFCategory/Classes/UIKit/UIBarButtonItem+FYFExtension.h"; sourceTree = "<group>"; };
+		719AC10C914F1518110ECEB956CCEB79 /* Pods-FYFEncrypt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFEncrypt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		71E7AAAC7C61679907AA2FA80090BAE8 /* Pods-FYFEncrypt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYFEncrypt_Example-dummy.m"; sourceTree = "<group>"; };
+		7228BBC11EDC1D50646EB708F7584733 /* dherr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dherr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/dherr.h; sourceTree = "<group>"; };
+		72CF4FF1E59CCF6536E6F63B88B52B1F /* CALayer+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+FYFExtension.h"; path = "FYFCategory/Classes/UIKit/CALayer+FYFExtension.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		771C5CBA6FDFC732EE53C5F585E1C221 /* store.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = store.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/store.h; sourceTree = "<group>"; };
+		788B85C8A46167EE4FB9F328D882F560 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/pkcs12.h; sourceTree = "<group>"; };
+		7A8AB9B1A1E15D3D902A2CA798FAA03C /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/objects.h; sourceTree = "<group>"; };
+		7A91CFA7B0175D72A5B9EEE267A27B05 /* pkcs12err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12err.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/pkcs12err.h; sourceTree = "<group>"; };
+		7AD4E522777F2C326450C55C4F1CCAFA /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ts.h; sourceTree = "<group>"; };
+		7C294943A81387AC7612683E23D82613 /* ct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ct.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ct.h; sourceTree = "<group>"; };
+		7C4D650032B9485B774C41A207BF109E /* FYFEncrypt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFEncrypt-umbrella.h"; sourceTree = "<group>"; };
+		7D6F0BEECB7B283144674E5E84E36EF9 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/sha.h; sourceTree = "<group>"; };
+		7EAB970F7FDFFA6554CCAC879D4C1E79 /* Pods-FYFEncrypt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYFEncrypt_Tests.modulemap"; sourceTree = "<group>"; };
+		7F0025F85784E0B98DBE5D3E38F3C435 /* NSMutableAttributedString+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+FYFExtension.m"; path = "FYFCategory/Classes/Foundation/NSMutableAttributedString+FYFExtension.m"; sourceTree = "<group>"; };
+		80884D70CE5636F7CD1A420EE7BE0C9E /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/md4.h; sourceTree = "<group>"; };
+		810D17480A8D2E18E120B715AF2D683C /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/e_os2.h; sourceTree = "<group>"; };
+		81C3C9EEDAD4F98C20FDDD571E7CA44D /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/buffer.h; sourceTree = "<group>"; };
+		823A39F4EC2689EB95C0CAA46C206830 /* tserr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tserr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/tserr.h; sourceTree = "<group>"; };
+		85024B2C684C6AFD9AA20F1423EA0144 /* NSArray+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+FYFExtension.h"; path = "FYFCategory/Classes/Foundation/NSArray+FYFExtension.h"; sourceTree = "<group>"; };
+		8860DF9EF586ECA7944974EF8F87AB96 /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ssl3.h; sourceTree = "<group>"; };
+		8CB84707CA62D5D286CBE2CFF72D13E0 /* storeerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = storeerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/storeerr.h; sourceTree = "<group>"; };
+		8E00B0B9B745781172ECF4B46694311D /* CALayer+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+FYFExtension.m"; path = "FYFCategory/Classes/UIKit/CALayer+FYFExtension.m"; sourceTree = "<group>"; };
+		8ECE0BDCFD26C79AB200A3B741997E40 /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/x509.h; sourceTree = "<group>"; };
+		9038E4BC32886AC653F96FFE63B333E9 /* FYFCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYFCategory.modulemap; sourceTree = "<group>"; };
+		90B5910D1C7892940853268BAE95D668 /* evperr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evperr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/evperr.h; sourceTree = "<group>"; };
+		915A173FC45764F43D10423EA10E7BC0 /* FYFAesHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYFAesHelper.m; path = FYFEncrypt/Classes/aes/FYFAesHelper.m; sourceTree = "<group>"; };
+		91E41646656589321CB07D2A47FF1992 /* FYFCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFCategory.debug.xcconfig; sourceTree = "<group>"; };
+		949C97014B05855B4DA12AFEF657ADB1 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/srp.h; sourceTree = "<group>"; };
+		96C5692C8FC84A1321E4678111B741B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		995FBFA57774B0A669627D5D5A4E01B8 /* FYFAesHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFAesHelper.h; path = FYFEncrypt/Classes/aes/FYFAesHelper.h; sourceTree = "<group>"; };
+		9C662A150CB873BB924E02E2BC57AEC3 /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/x509_vfy.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDC708055290470DEBC2D0197BFC540 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/md5.h; sourceTree = "<group>"; };
+		9DE52D189731B17B996A327B0DEC3F4F /* NSDate+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+FYFExtension.m"; path = "FYFCategory/Classes/Foundation/NSDate+FYFExtension.m"; sourceTree = "<group>"; };
+		A0DE9B4762D497F1067CAF3FCC3F0F30 /* UIColor+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FYFExtension.m"; path = "FYFCategory/Classes/UIKit/UIColor+FYFExtension.m"; sourceTree = "<group>"; };
+		A1BEADB94734569443F63E898AC86EAC /* FYFEncrypt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYFEncrypt-dummy.m"; sourceTree = "<group>"; };
+		A5481B3078491E51B87621D9528DA02F /* FYFCommonUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFCommonUtil.h; path = FYFCategory/Classes/UIKit/FYFCommonUtil.h; sourceTree = "<group>"; };
+		A5E902BAC2DA0C2E27DB5EAD40B34805 /* bioerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bioerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/bioerr.h; sourceTree = "<group>"; };
+		A62A7BC276DB279EB60ADAD04E3DB07C /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/pem2.h; sourceTree = "<group>"; };
+		A6D01CA2F1D315C5E4A8D5024286A313 /* UIScreen+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+FYFExtension.m"; path = "FYFCategory/Classes/UIKit/UIScreen+FYFExtension.m"; sourceTree = "<group>"; };
+		A8B4D5086E379C08617F8F78CBAEF702 /* UILabel+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+FYFExtension.m"; path = "FYFCategory/Classes/UIKit/UILabel+FYFExtension.m"; sourceTree = "<group>"; };
+		A9BCE15D0E6AACFB80865C9B6DBDD985 /* UITabBarItem+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+FYFExtension.h"; path = "FYFCategory/Classes/UIKit/UITabBarItem+FYFExtension.h"; sourceTree = "<group>"; };
+		AA21759AD94AFB0098A5DEF72AA00907 /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/pkcs7.h; sourceTree = "<group>"; };
+		AADEE6276A4A8F2474D83479F12A9D10 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ocsp.h; sourceTree = "<group>"; };
+		AB11F63CA30B934940228DDFD8D3697B /* NSData+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+FYFExtension.m"; path = "FYFCategory/Classes/Foundation/NSData+FYFExtension.m"; sourceTree = "<group>"; };
+		AC04F45700020E5578871A67734A6E4F /* shim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shim.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/shim.h; sourceTree = "<group>"; };
+		AD909C28C04E740DF31923285CBBE5EF /* kdf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdf.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/kdf.h; sourceTree = "<group>"; };
+		AF7F2B7229108C77C4F7908DE9BE1768 /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/evp.h; sourceTree = "<group>"; };
+		AFDA93258F84E93EF71BABBA67C1D999 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/cmac.h; sourceTree = "<group>"; };
+		B1C6FADDE5E1137E6B888BDDF05D5256 /* x509err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509err.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/x509err.h; sourceTree = "<group>"; };
+		B361B3B1EC1DB63F5E9AE0DD3453060A /* FYFHexHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFHexHelper.h; path = FYFEncrypt/Classes/hex/FYFHexHelper.h; sourceTree = "<group>"; };
+		B440418522CBEA37098F5C170010C873 /* NSString+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FYFExtension.m"; path = "FYFCategory/Classes/Foundation/NSString+FYFExtension.m"; sourceTree = "<group>"; };
+		B45A41C1166EF2171AB797D14B36510A /* UILabel+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FYFExtension.h"; path = "FYFCategory/Classes/UIKit/UILabel+FYFExtension.h"; sourceTree = "<group>"; };
+		B534C6DA6C6EC08D07771A7B2995FE2E /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/modes.h; sourceTree = "<group>"; };
+		B93ED3AA39FEDB3D6BEEB2C1B0769C51 /* FYFCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYFCategory-dummy.m"; sourceTree = "<group>"; };
+		B9F11FF39D71017054043C1931946169 /* pkcs7err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7err.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/pkcs7err.h; sourceTree = "<group>"; };
+		BBF8056334D6D423AA72DE5CF45766EB /* Pods-FYFEncrypt_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FYFEncrypt_Tests"; path = Pods_FYFEncrypt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4EBCB74FF50B4D376EE8D704FEA434 /* FYFDesHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYFDesHelper.m; path = FYFEncrypt/Classes/des/FYFDesHelper.m; sourceTree = "<group>"; };
+		BEB2A0A368B068E3E33FD03104BE7A2B /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/dtls1.h; sourceTree = "<group>"; };
+		C00501483A78B0A0B3CF09B587BDB832 /* objectserr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objectserr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/objectserr.h; sourceTree = "<group>"; };
+		C3B24C91E6DDD4843A86AB8E946F2017 /* NSDecimalNumber+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+FYFExtension.m"; path = "FYFCategory/Classes/Foundation/NSDecimalNumber+FYFExtension.m"; sourceTree = "<group>"; };
+		C4BBF341496F189D970A2FF0B7FB4B56 /* FYFCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFCategory-prefix.pch"; sourceTree = "<group>"; };
+		C5141DA933B550C64D8C20F2B5AD1218 /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/asn1.h; sourceTree = "<group>"; };
+		C59731CF8AEC3669B3A8DE0D1DE003E5 /* Pods-FYFEncrypt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYFEncrypt_Example-umbrella.h"; sourceTree = "<group>"; };
+		C68E27BD55B82C3638D8365A94468375 /* NSDecimalNumber+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+FYFExtension.h"; path = "FYFCategory/Classes/Foundation/NSDecimalNumber+FYFExtension.h"; sourceTree = "<group>"; };
+		C744B25AB509F9AFB24EFAC0E0F9BED1 /* UIBarButtonItem+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+FYFExtension.m"; path = "FYFCategory/Classes/UIKit/UIBarButtonItem+FYFExtension.m"; sourceTree = "<group>"; };
+		C7676AEB1A5E699FA9AE9E8321A95C33 /* ocsperr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsperr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ocsperr.h; sourceTree = "<group>"; };
+		C880582074848D14B5D386CB86195F5F /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/crypto.h; sourceTree = "<group>"; };
+		CA56068D9ABE7A54F4068E11D2E36878 /* Pods-FYFEncrypt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYFEncrypt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CAEFB7F8C1377E99AD960B97CEA86027 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ecdsa.h; sourceTree = "<group>"; };
+		CC4731A6FC5A236A08D1C8C96FED6618 /* Pods-FYFEncrypt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYFEncrypt_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CC581A67CA4E9F65AC3109F60DF5AD6D /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/obj_mac.h; sourceTree = "<group>"; };
+		CD65201C0EAE5E298635779907664DBE /* FYFEncrypt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FYFEncrypt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEFA0DC7EA58934F9A0DB09FE308CE98 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ecdh.h; sourceTree = "<group>"; };
+		D04097ABE22C4ABCC05DC4BB53F96781 /* FYFEncrypt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FYFEncrypt; path = FYFEncrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25FD7D2497280CE457515DE11F90564 /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/conf_api.h; sourceTree = "<group>"; };
+		D661027257141B7DE9AFA0D57151087D /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/rc2.h; sourceTree = "<group>"; };
+		D69024C1F006DE5366D8A3F3B267DE5D /* UIColor+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FYFExtension.h"; path = "FYFCategory/Classes/UIKit/UIColor+FYFExtension.h"; sourceTree = "<group>"; };
+		D7630AB2AD513943410E205A5CA52094 /* FYFGTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FYFGTMBase64.m; sourceTree = "<group>"; };
+		D882127E79DDB2025724BED78375419F /* FYFEncrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFEncrypt.release.xcconfig; sourceTree = "<group>"; };
+		D93439F49AFBA69574E97E66904FD83E /* NSObject+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FYFExtension.m"; path = "FYFCategory/Classes/Foundation/NSObject+FYFExtension.m"; sourceTree = "<group>"; };
+		DA1C81A491071A214A941664F3AEC9CC /* UIImage+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FYFExtension.m"; path = "FYFCategory/Classes/UIKit/UIImage+FYFExtension.m"; sourceTree = "<group>"; };
+		DA3D6FC22194976D7A04A7C2A8DA051C /* UIFont+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+FYFExtension.m"; path = "FYFCategory/Classes/UIKit/UIFont+FYFExtension.m"; sourceTree = "<group>"; };
+		DB53EF8DD95534708B365ADFB60C791B /* bnerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bnerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/bnerr.h; sourceTree = "<group>"; };
+		DC989F10C6F7835F559C9E6B56211D0D /* cmserr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmserr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/cmserr.h; sourceTree = "<group>"; };
+		DCADDE20CAE3E05198433C393682B0F5 /* FYFCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYFCategory-Info.plist"; sourceTree = "<group>"; };
+		DCFD0450B00C5FCD65E0F2DBE36AF0AE /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/dh.h; sourceTree = "<group>"; };
+		DE21D6D42AEE5DFADC6D731875BBCC86 /* UIButton+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FYFExtension.h"; path = "FYFCategory/Classes/UIKit/UIButton+FYFExtension.h"; sourceTree = "<group>"; };
+		DF51EA18D408E228B6A98A13AD878320 /* UIView+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FYFExtension.h"; path = "FYFCategory/Classes/UIKit/UIView+FYFExtension.h"; sourceTree = "<group>"; };
+		DF915691846A32106B49C1E5052E1210 /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/safestack.h; sourceTree = "<group>"; };
+		E103FC340737901FC7D8497A286505CE /* FYFHexHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYFHexHelper.m; path = FYFEncrypt/Classes/hex/FYFHexHelper.m; sourceTree = "<group>"; };
+		E2B3245F83080DD53C3826C7C73E374A /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/asn1t.h; sourceTree = "<group>"; };
+		E64578E058BA7E6271748C2D5F4AB7A9 /* FYFEncrypt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFEncrypt-prefix.pch"; sourceTree = "<group>"; };
+		E6AE32C2C3A6FB53ED88E6C5A7D745B4 /* engineerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engineerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/engineerr.h; sourceTree = "<group>"; };
+		E78EE24A83739E93B667CA47B6C1A982 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/cms.h; sourceTree = "<group>"; };
+		E9413FAED41FFF375E7E8FF0E9A4C277 /* uierr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uierr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/uierr.h; sourceTree = "<group>"; };
+		EAB2EDAB86FD3332A1BFF43DADFB73D2 /* Pods-FYFEncrypt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFEncrypt_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAE499EF4CE1B17B8DD5EEFED8AAD511 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/whrlpool.h; sourceTree = "<group>"; };
+		EC54866794535F62C915A0590CEBAECF /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/hmac.h; sourceTree = "<group>"; };
+		ECB55C916296D598EE272CCB89A88BFB /* async.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = async.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/async.h; sourceTree = "<group>"; };
+		ECCBDB58A31BDF67AFDC07475943FDD7 /* asyncerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asyncerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/asyncerr.h; sourceTree = "<group>"; };
+		ECFA5425A31312858F4285E458FDADD5 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/symhacks.h; sourceTree = "<group>"; };
+		EDD8262979555BBA79C812281DBE370A /* FYFGTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FYFGTMBase64.h; sourceTree = "<group>"; };
+		EED1E68F568F382797868E32F8E5C974 /* NSArray+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FYFExtension.m"; path = "FYFCategory/Classes/Foundation/NSArray+FYFExtension.m"; sourceTree = "<group>"; };
+		EFDD9F09E21C224035C565A234658576 /* sslerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sslerr.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/sslerr.h; sourceTree = "<group>"; };
+		F6893B86A8D7C70F96A2DF5B49FFE253 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/dsa.h; sourceTree = "<group>"; };
+		F6A827EEA351AAFFDFBA83C9CF727BEB /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/ec.h; sourceTree = "<group>"; };
+		F7B776A2F95E72124E436D3453FB7B39 /* UIButton+FYFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FYFExtension.m"; path = "FYFCategory/Classes/UIKit/UIButton+FYFExtension.m"; sourceTree = "<group>"; };
+		F936A0584552AEED60592415904956C4 /* NSData+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+FYFExtension.h"; path = "FYFCategory/Classes/Foundation/NSData+FYFExtension.h"; sourceTree = "<group>"; };
+		F9B15BBAF927A3B0A4F406B6EBB99A71 /* FYFRsaHelper.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FYFRsaHelper.mm; path = FYFEncrypt/Classes/rsa/FYFRsaHelper.mm; sourceTree = "<group>"; };
+		FA637DC318EFC2C6E21E9149F8256CC2 /* FYFRsaHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFRsaHelper.h; path = FYFEncrypt/Classes/rsa/FYFRsaHelper.h; sourceTree = "<group>"; };
+		FAFD6949B76674A6D3BF9292CA609020 /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = FYFOpenSSL/Framework/OpenSSL.framework/Headers/x509v3.h; sourceTree = "<group>"; };
+		FE26D602250BC17C81098C0BA7C03689 /* UIImage+FYFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FYFExtension.h"; path = "FYFCategory/Classes/UIKit/UIImage+FYFExtension.h"; sourceTree = "<group>"; };
+		FEA56367E1FEE88F7255B863F192BC36 /* FYFBase64Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYFBase64Helper.m; path = FYFEncrypt/Classes/base64/FYFBase64Helper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97E1DA83A64159DB49381D550E891535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF19F69E378AD15DE1D424F77AD7FC07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC1FD49ADC6719308B8820D656132C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6126917C29DC5B6363FCFD988B55F218 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5C5F6341E5315416F0E2683D81089B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8347C5CAAD8FB60E97FCC6BD9E73A71E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCD679F44D0825C11C1465BE852D34D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B705055497932B3AD8A215A70EF309 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D05320057DD647516EF3E7A29E1F1FF /* rsa */ = {
+			isa = PBXGroup;
+			children = (
+				40B1C28B656A18145F52AA65DBBE5D12 /* FYFRSA.h */,
+				3AFDAE838A506B41CED85A237BB12212 /* FYFRSA.mm */,
+				FA637DC318EFC2C6E21E9149F8256CC2 /* FYFRsaHelper.h */,
+				F9B15BBAF927A3B0A4F406B6EBB99A71 /* FYFRsaHelper.mm */,
+			);
+			name = rsa;
+			sourceTree = "<group>";
+		};
+		122712FA389C913DD2BDE8ABD15F3EEE /* hex */ = {
+			isa = PBXGroup;
+			children = (
+				B361B3B1EC1DB63F5E9AE0DD3453060A /* FYFHexHelper.h */,
+				E103FC340737901FC7D8497A286505CE /* FYFHexHelper.m */,
+			);
+			name = hex;
+			sourceTree = "<group>";
+		};
+		270F2164ED714F54C1C4EB3DB49E2A4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61736A47FCEA2C7EADC06006A578D3F1 /* FYFEncrypt.modulemap */,
+				A1BEADB94734569443F63E898AC86EAC /* FYFEncrypt-dummy.m */,
+				276AA2E5CD76A6A4AB686FCC3678C9B6 /* FYFEncrypt-Info.plist */,
+				E64578E058BA7E6271748C2D5F4AB7A9 /* FYFEncrypt-prefix.pch */,
+				7C4D650032B9485B774C41A207BF109E /* FYFEncrypt-umbrella.h */,
+				039429AE2D5B433A385E0D0A51090E0E /* FYFEncrypt.debug.xcconfig */,
+				D882127E79DDB2025724BED78375419F /* FYFEncrypt.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FYFEncrypt";
+			sourceTree = "<group>";
+		};
+		3A6BFF03CAFD9BDA067C367036F4ACB9 /* md5 */ = {
+			isa = PBXGroup;
+			children = (
+				511FE6D870D0EC26BE22284CBE79233A /* FYFMD5Helper.h */,
+				62A023D3C24B77282D6A3A270A4BBA3F /* FYFMD5Helper.m */,
+			);
+			name = md5;
+			sourceTree = "<group>";
+		};
+		43D46DD494904C1B070C4E3360E67DC1 /* Pods-FYFEncrypt_Example */ = {
+			isa = PBXGroup;
+			children = (
+				143160109CE0470D26574A5DFB417E50 /* Pods-FYFEncrypt_Example.modulemap */,
+				34E79CC9C4CD3AB119A998B4B32F44F7 /* Pods-FYFEncrypt_Example-acknowledgements.markdown */,
+				45A75D3A8C3C07B2A0DE3FD65D6BE412 /* Pods-FYFEncrypt_Example-acknowledgements.plist */,
+				71E7AAAC7C61679907AA2FA80090BAE8 /* Pods-FYFEncrypt_Example-dummy.m */,
+				CC4731A6FC5A236A08D1C8C96FED6618 /* Pods-FYFEncrypt_Example-frameworks.sh */,
+				0FEFFE6787A617125FBB56FA2E055CFC /* Pods-FYFEncrypt_Example-Info.plist */,
+				C59731CF8AEC3669B3A8DE0D1DE003E5 /* Pods-FYFEncrypt_Example-umbrella.h */,
+				60D9FDD2CF06EDED4E98B1ABA82DC598 /* Pods-FYFEncrypt_Example.debug.xcconfig */,
+				4A7C1D7E12945279E58B73FCCC690C39 /* Pods-FYFEncrypt_Example.release.xcconfig */,
+			);
+			name = "Pods-FYFEncrypt_Example";
+			path = "Target Support Files/Pods-FYFEncrypt_Example";
+			sourceTree = "<group>";
+		};
+		4A421E6CCFD2770E82BC5218F2307F00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BC80A5EB532046981794769B32C0845 /* OpenSSL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D267647473FEDC8D826B806DA452E9A /* gtm */ = {
+			isa = PBXGroup;
+			children = (
+				EDD8262979555BBA79C812281DBE370A /* FYFGTMBase64.h */,
+				D7630AB2AD513943410E205A5CA52094 /* FYFGTMBase64.m */,
+				5808A871468BBB2F13CA8115985D8B3F /* FYFGTMDefines.h */,
+			);
+			name = gtm;
+			path = FYFEncrypt/Classes/base64/gtm;
+			sourceTree = "<group>";
+		};
+		5F2EAE4878B197E17E131860D006E689 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9038E4BC32886AC653F96FFE63B333E9 /* FYFCategory.modulemap */,
+				B93ED3AA39FEDB3D6BEEB2C1B0769C51 /* FYFCategory-dummy.m */,
+				DCADDE20CAE3E05198433C393682B0F5 /* FYFCategory-Info.plist */,
+				C4BBF341496F189D970A2FF0B7FB4B56 /* FYFCategory-prefix.pch */,
+				246702866A51BA0C03B0711F60C8ED73 /* FYFCategory-umbrella.h */,
+				91E41646656589321CB07D2A47FF1992 /* FYFCategory.debug.xcconfig */,
+				5A91FC63E9A3817D6DCB7C828FE5116A /* FYFCategory.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FYFCategory";
+			sourceTree = "<group>";
+		};
+		75E0595D6EB793D03D9AA952CDC17F4F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD55A04438EB90E5941286A26C1BCD13 /* FYFEncrypt */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		787738CA4CA107643097C50AC8EB96AB /* des */ = {
+			isa = PBXGroup;
+			children = (
+				40999536E069F4A8CEBC4A28DC3922BE /* FYFDesHelper.h */,
+				BD4EBCB74FF50B4D376EE8D704FEA434 /* FYFDesHelper.m */,
+			);
+			name = des;
+			sourceTree = "<group>";
+		};
+		7AD4F461EA3BBCDADB54FBF10377AB17 /* FYFCategory */ = {
+			isa = PBXGroup;
+			children = (
+				72CF4FF1E59CCF6536E6F63B88B52B1F /* CALayer+FYFExtension.h */,
+				8E00B0B9B745781172ECF4B46694311D /* CALayer+FYFExtension.m */,
+				6D41E8BA221C881A1929C77377F0F213 /* FYFCategory.h */,
+				A5481B3078491E51B87621D9528DA02F /* FYFCommonUtil.h */,
+				85024B2C684C6AFD9AA20F1423EA0144 /* NSArray+FYFExtension.h */,
+				EED1E68F568F382797868E32F8E5C974 /* NSArray+FYFExtension.m */,
+				F936A0584552AEED60592415904956C4 /* NSData+FYFExtension.h */,
+				AB11F63CA30B934940228DDFD8D3697B /* NSData+FYFExtension.m */,
+				0E1BCFC3DB88097FF4CCD0BBD5A9E540 /* NSDate+FYFExtension.h */,
+				9DE52D189731B17B996A327B0DEC3F4F /* NSDate+FYFExtension.m */,
+				C68E27BD55B82C3638D8365A94468375 /* NSDecimalNumber+FYFExtension.h */,
+				C3B24C91E6DDD4843A86AB8E946F2017 /* NSDecimalNumber+FYFExtension.m */,
+				6D1C1850B7C53CE9D810D0F82AE1FDF1 /* NSDictionary+FYFSafe.h */,
+				4996FB399A68BD86E38EDB8981A5661A /* NSDictionary+FYFSafe.m */,
+				596897E37281318B8EA82BB8515E9FEC /* NSFileManager+FYFExtension.h */,
+				1439878BE861CB8F9AD769EFF538CA04 /* NSFileManager+FYFExtension.m */,
+				5135680321451634D6640FFD6B79DAD9 /* NSMutableAttributedString+FYFExtension.h */,
+				7F0025F85784E0B98DBE5D3E38F3C435 /* NSMutableAttributedString+FYFExtension.m */,
+				0CF017CAA1ECD6ADE17A2262CF4909F8 /* NSMutableDictionary+FYFSafe.h */,
+				58B7843080CFA2DD3F0B0975939026EF /* NSMutableDictionary+FYFSafe.m */,
+				1ABD67B6E71B32B6F26859B6F6CD0A76 /* NSObject+FYFExtension.h */,
+				D93439F49AFBA69574E97E66904FD83E /* NSObject+FYFExtension.m */,
+				3129FE8C02BCED57EC9EC920E06E707E /* NSString+FYFExtension.h */,
+				B440418522CBEA37098F5C170010C873 /* NSString+FYFExtension.m */,
+				70C47A884A6297E450CFB41B49B1B786 /* UIBarButtonItem+FYFExtension.h */,
+				C744B25AB509F9AFB24EFAC0E0F9BED1 /* UIBarButtonItem+FYFExtension.m */,
+				DE21D6D42AEE5DFADC6D731875BBCC86 /* UIButton+FYFExtension.h */,
+				F7B776A2F95E72124E436D3453FB7B39 /* UIButton+FYFExtension.m */,
+				D69024C1F006DE5366D8A3F3B267DE5D /* UIColor+FYFExtension.h */,
+				A0DE9B4762D497F1067CAF3FCC3F0F30 /* UIColor+FYFExtension.m */,
+				67B03E130BCA01B8F8840D9F28B255AF /* UIFont+FYFExtension.h */,
+				DA3D6FC22194976D7A04A7C2A8DA051C /* UIFont+FYFExtension.m */,
+				FE26D602250BC17C81098C0BA7C03689 /* UIImage+FYFExtension.h */,
+				DA1C81A491071A214A941664F3AEC9CC /* UIImage+FYFExtension.m */,
+				B45A41C1166EF2171AB797D14B36510A /* UILabel+FYFExtension.h */,
+				A8B4D5086E379C08617F8F78CBAEF702 /* UILabel+FYFExtension.m */,
+				4129FAD0C5712FE38FB00005D98F303A /* UIScreen+FYFExtension.h */,
+				A6D01CA2F1D315C5E4A8D5024286A313 /* UIScreen+FYFExtension.m */,
+				A9BCE15D0E6AACFB80865C9B6DBDD985 /* UITabBarItem+FYFExtension.h */,
+				443E0DD3F877D603E9970DABC5BE9E5F /* UITabBarItem+FYFExtension.m */,
+				DF51EA18D408E228B6A98A13AD878320 /* UIView+FYFExtension.h */,
+				3654A793230DE6C88EB7DAAE59EB3191 /* UIView+FYFExtension.m */,
+				5F2EAE4878B197E17E131860D006E689 /* Support Files */,
+			);
+			name = FYFCategory;
+			path = FYFCategory;
+			sourceTree = "<group>";
+		};
+		8474A1F4BC61A5DA81220BD566DAADAC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CD65201C0EAE5E298635779907664DBE /* FYFEncrypt.podspec */,
+				650840D921E2CA3FB7671B26EE374EFC /* LICENSE */,
+				96C5692C8FC84A1321E4678111B741B8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C6B78C719ECBA5966428D4EF72203C6 /* FYFOpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				1A9AF95DDE0B2B3C903A672CAD0938C9 /* aes.h */,
+				C5141DA933B550C64D8C20F2B5AD1218 /* asn1.h */,
+				0BB00248DEB7EA0D94EE8A4711C7DB98 /* asn1err.h */,
+				E2B3245F83080DD53C3826C7C73E374A /* asn1t.h */,
+				ECB55C916296D598EE272CCB89A88BFB /* async.h */,
+				ECCBDB58A31BDF67AFDC07475943FDD7 /* asyncerr.h */,
+				002E6489266AC16C29A752D4916F8419 /* bio.h */,
+				A5E902BAC2DA0C2E27DB5EAD40B34805 /* bioerr.h */,
+				167DFCE3FECF9EF331457295CA5FD0B3 /* blowfish.h */,
+				2F741918B3F6D7243CA2D0FC999B3410 /* bn.h */,
+				DB53EF8DD95534708B365ADFB60C791B /* bnerr.h */,
+				81C3C9EEDAD4F98C20FDDD571E7CA44D /* buffer.h */,
+				1A6318BF539ABF49993A2F51F478EDEF /* buffererr.h */,
+				341AF505992E692330261929113907ED /* camellia.h */,
+				38BD9EB24279B8B624BB1A82CB2B77A8 /* cast.h */,
+				AFDA93258F84E93EF71BABBA67C1D999 /* cmac.h */,
+				E78EE24A83739E93B667CA47B6C1A982 /* cms.h */,
+				DC989F10C6F7835F559C9E6B56211D0D /* cmserr.h */,
+				124073B26101570479297EB19F42995A /* comp.h */,
+				3701BECE67247FB1086492E9E8F69A8B /* comperr.h */,
+				682C4D55615705BCE251FC385D22FC5E /* conf.h */,
+				D25FD7D2497280CE457515DE11F90564 /* conf_api.h */,
+				27B8E1D2369D4AA7923C83B5768DB411 /* conferr.h */,
+				C880582074848D14B5D386CB86195F5F /* crypto.h */,
+				572434F7D548D472F77FE448B999799B /* cryptoerr.h */,
+				7C294943A81387AC7612683E23D82613 /* ct.h */,
+				62E6D45D3A1290EBFB945FA5088B8F13 /* cterr.h */,
+				344B934CE33389470FF95ECF1037EFFA /* des.h */,
+				DCFD0450B00C5FCD65E0F2DBE36AF0AE /* dh.h */,
+				7228BBC11EDC1D50646EB708F7584733 /* dherr.h */,
+				F6893B86A8D7C70F96A2DF5B49FFE253 /* dsa.h */,
+				5C5A0B49B7E734834B491B71A0784068 /* dsaerr.h */,
+				BEB2A0A368B068E3E33FD03104BE7A2B /* dtls1.h */,
+				810D17480A8D2E18E120B715AF2D683C /* e_os2.h */,
+				395EFF70BB8C5D43C293F8D8599C66CD /* ebcdic.h */,
+				F6A827EEA351AAFFDFBA83C9CF727BEB /* ec.h */,
+				CEFA0DC7EA58934F9A0DB09FE308CE98 /* ecdh.h */,
+				CAEFB7F8C1377E99AD960B97CEA86027 /* ecdsa.h */,
+				2A36C7AECB7BA2C854425102047C7741 /* ecerr.h */,
+				0097116C5194D1DC5C2856E27CB61C8C /* engine.h */,
+				E6AE32C2C3A6FB53ED88E6C5A7D745B4 /* engineerr.h */,
+				481F272AA8FD1052F203FB550DC6FB9D /* err.h */,
+				AF7F2B7229108C77C4F7908DE9BE1768 /* evp.h */,
+				90B5910D1C7892940853268BAE95D668 /* evperr.h */,
+				EC54866794535F62C915A0590CEBAECF /* hmac.h */,
+				541D3D5966C19737167D5D37703B6F10 /* idea.h */,
+				AD909C28C04E740DF31923285CBBE5EF /* kdf.h */,
+				14E185364EFC6D050AF719826EDDB422 /* kdferr.h */,
+				468EB139F7D1BD31BCBD2DC1BF96F362 /* lhash.h */,
+				418F3AB2DC755B057CD2C3A53F5B7862 /* md2.h */,
+				80884D70CE5636F7CD1A420EE7BE0C9E /* md4.h */,
+				9DDC708055290470DEBC2D0197BFC540 /* md5.h */,
+				6CAAECE864F61E1DFE7D3BA4D9389385 /* mdc2.h */,
+				B534C6DA6C6EC08D07771A7B2995FE2E /* modes.h */,
+				CC581A67CA4E9F65AC3109F60DF5AD6D /* obj_mac.h */,
+				7A8AB9B1A1E15D3D902A2CA798FAA03C /* objects.h */,
+				C00501483A78B0A0B3CF09B587BDB832 /* objectserr.h */,
+				AADEE6276A4A8F2474D83479F12A9D10 /* ocsp.h */,
+				C7676AEB1A5E699FA9AE9E8321A95C33 /* ocsperr.h */,
+				4FF0A43AFC81CCFCB3C982C5F3A84961 /* OpenSSL.h */,
+				0C76713D5B526EA4AA04AC8B1EAC16E4 /* opensslconf.h */,
+				08C140DACF5A0D5A24C802F4A3B6C1E6 /* opensslv.h */,
+				696628ABA70077DD1581854314000964 /* ossl_typ.h */,
+				0DC482FC5DB59D34623A43885552816D /* pem.h */,
+				A62A7BC276DB279EB60ADAD04E3DB07C /* pem2.h */,
+				224914E79169A5CB8AE03B6A9E870D6E /* pemerr.h */,
+				788B85C8A46167EE4FB9F328D882F560 /* pkcs12.h */,
+				7A91CFA7B0175D72A5B9EEE267A27B05 /* pkcs12err.h */,
+				AA21759AD94AFB0098A5DEF72AA00907 /* pkcs7.h */,
+				B9F11FF39D71017054043C1931946169 /* pkcs7err.h */,
+				4EA216CEC0912862DF4510B5067E4BF8 /* rand.h */,
+				4287BD042623BA6A1BB06A9326D819E1 /* rand_drbg.h */,
+				12E4B9C467E363418443FC555998F0BE /* randerr.h */,
+				D661027257141B7DE9AFA0D57151087D /* rc2.h */,
+				113D8073EC604595E8496212CA8ADA0D /* rc4.h */,
+				45BEAA198839832E2DB3564108B0942E /* rc5.h */,
+				704FAB856A17AF25A786563394631E7C /* ripemd.h */,
+				2DC85DAA28F7F7BAF2850F6C1AF7E7F2 /* rsa.h */,
+				02BE289AF5C535F912EDC92CE76A0974 /* rsaerr.h */,
+				DF915691846A32106B49C1E5052E1210 /* safestack.h */,
+				54FD069D089BABE949BEB2412DF63BF7 /* seed.h */,
+				7D6F0BEECB7B283144674E5E84E36EF9 /* sha.h */,
+				AC04F45700020E5578871A67734A6E4F /* shim.h */,
+				949C97014B05855B4DA12AFEF657ADB1 /* srp.h */,
+				08AB283E1FEA4B0925A43CC62F031115 /* srtp.h */,
+				3AFFD5716F0DC85589EF629F680BDF74 /* ssl.h */,
+				3B63A3E1F69E6838C3E70C0DDE50EDAB /* ssl2.h */,
+				8860DF9EF586ECA7944974EF8F87AB96 /* ssl3.h */,
+				EFDD9F09E21C224035C565A234658576 /* sslerr.h */,
+				321206E8AC76C9E356D3F459BD02BB57 /* stack.h */,
+				771C5CBA6FDFC732EE53C5F585E1C221 /* store.h */,
+				8CB84707CA62D5D286CBE2CFF72D13E0 /* storeerr.h */,
+				ECFA5425A31312858F4285E458FDADD5 /* symhacks.h */,
+				44D3FFCB748DCB2C3D2F12F7085DAC34 /* tls1.h */,
+				7AD4E522777F2C326450C55C4F1CCAFA /* ts.h */,
+				823A39F4EC2689EB95C0CAA46C206830 /* tserr.h */,
+				1C0A0E6FCF1FFF2DC3F3A1B0BC71CE01 /* txt_db.h */,
+				3DF935EEBE5062547FFD8D39A59743A7 /* ui.h */,
+				E9413FAED41FFF375E7E8FF0E9A4C277 /* uierr.h */,
+				EAE499EF4CE1B17B8DD5EEFED8AAD511 /* whrlpool.h */,
+				8ECE0BDCFD26C79AB200A3B741997E40 /* x509.h */,
+				9C662A150CB873BB924E02E2BC57AEC3 /* x509_vfy.h */,
+				B1C6FADDE5E1137E6B888BDDF05D5256 /* x509err.h */,
+				FAFD6949B76674A6D3BF9292CA609020 /* x509v3.h */,
+				520D7FCEC9B1DE25261C101A4E58A942 /* x509v3err.h */,
+				4A421E6CCFD2770E82BC5218F2307F00 /* Frameworks */,
+				CAEC9A5CDE7385A788081C607054D251 /* Support Files */,
+			);
+			name = FYFOpenSSL;
+			path = FYFOpenSSL;
+			sourceTree = "<group>";
+		};
+		95D4B92B5E3F6FECB8DBA77908B18228 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AD4F461EA3BBCDADB54FBF10377AB17 /* FYFCategory */,
+				8C6B78C719ECBA5966428D4EF72203C6 /* FYFOpenSSL */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B014A99B9E09823ED8317EE175D54DB /* base64 */ = {
+			isa = PBXGroup;
+			children = (
+				064D4E40CC6565F9BE897B0AA2A96F59 /* FYFBase64Helper.h */,
+				FEA56367E1FEE88F7255B863F192BC36 /* FYFBase64Helper.m */,
+				5D267647473FEDC8D826B806DA452E9A /* gtm */,
+			);
+			name = base64;
+			sourceTree = "<group>";
+		};
+		9ED6CA0F21E767A12FF159B90C67F315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A56B9ACB637D7F6872EB69FB2CE4FF7 /* FYFCategory */,
+				D04097ABE22C4ABCC05DC4BB53F96781 /* FYFEncrypt */,
+				558B90A9B2778AF3F547F056FD034350 /* Pods-FYFEncrypt_Example */,
+				BBF8056334D6D423AA72DE5CF45766EB /* Pods-FYFEncrypt_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD55A04438EB90E5941286A26C1BCD13 /* FYFEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				E5EC2AB5A958BEE8810ADDFC7555AB92 /* aes */,
+				9B014A99B9E09823ED8317EE175D54DB /* base64 */,
+				787738CA4CA107643097C50AC8EB96AB /* des */,
+				122712FA389C913DD2BDE8ABD15F3EEE /* hex */,
+				3A6BFF03CAFD9BDA067C367036F4ACB9 /* md5 */,
+				8474A1F4BC61A5DA81220BD566DAADAC /* Pod */,
+				0D05320057DD647516EF3E7A29E1F1FF /* rsa */,
+				270F2164ED714F54C1C4EB3DB49E2A4F /* Support Files */,
+			);
+			name = FYFEncrypt;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B33155DE0D6BFC46CEC0B29D3C7EF8B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43D46DD494904C1B070C4E3360E67DC1 /* Pods-FYFEncrypt_Example */,
+				BA333A2431D1B18FBA6B94CBB61AA059 /* Pods-FYFEncrypt_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA333A2431D1B18FBA6B94CBB61AA059 /* Pods-FYFEncrypt_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7EAB970F7FDFFA6554CCAC879D4C1E79 /* Pods-FYFEncrypt_Tests.modulemap */,
+				CA56068D9ABE7A54F4068E11D2E36878 /* Pods-FYFEncrypt_Tests-acknowledgements.markdown */,
+				719AC10C914F1518110ECEB956CCEB79 /* Pods-FYFEncrypt_Tests-acknowledgements.plist */,
+				1B90096DDA6DD1002262898824CB53E0 /* Pods-FYFEncrypt_Tests-dummy.m */,
+				1A985928D3AFCF1A0BB338F4E7347938 /* Pods-FYFEncrypt_Tests-Info.plist */,
+				37F4A7AA26B8EF77552A39F86F9DAAB6 /* Pods-FYFEncrypt_Tests-umbrella.h */,
+				0CB07A64D0926E8EB465AD997258C143 /* Pods-FYFEncrypt_Tests.debug.xcconfig */,
+				EAB2EDAB86FD3332A1BFF43DADFB73D2 /* Pods-FYFEncrypt_Tests.release.xcconfig */,
+			);
+			name = "Pods-FYFEncrypt_Tests";
+			path = "Target Support Files/Pods-FYFEncrypt_Tests";
+			sourceTree = "<group>";
+		};
+		CAEC9A5CDE7385A788081C607054D251 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11A1820C581B11DA1EC8EDAFDE3E70FF /* FYFOpenSSL.debug.xcconfig */,
+				126C9589A6D6992A4C6989ECC0667FF9 /* FYFOpenSSL.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FYFOpenSSL";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				75E0595D6EB793D03D9AA952CDC17F4F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				95D4B92B5E3F6FECB8DBA77908B18228 /* Pods */,
+				9ED6CA0F21E767A12FF159B90C67F315 /* Products */,
+				B33155DE0D6BFC46CEC0B29D3C7EF8B5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5EC2AB5A958BEE8810ADDFC7555AB92 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				995FBFA57774B0A669627D5D5A4E01B8 /* FYFAesHelper.h */,
+				915A173FC45764F43D10423EA10E7BC0 /* FYFAesHelper.m */,
+			);
+			name = aes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C506E743B88E3AED25348142E1B884E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39624E061A55AB538F99F3BB92AF997E /* Pods-FYFEncrypt_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD597DDF43AEE374D2B1A4A59DA7E79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DA75B62E8FC90E7AABC7AB6288644A /* CALayer+FYFExtension.h in Headers */,
+				58C02434414D984AF8B5654BC6CFD261 /* FYFCategory.h in Headers */,
+				46A0B6FBB903D4DBD4E831B48C716B66 /* FYFCategory-umbrella.h in Headers */,
+				42A62629C3F60E44777F9EED770D8CFC /* FYFCommonUtil.h in Headers */,
+				2BB3E8BDB8F06D23AA6B5D975A52C56C /* NSArray+FYFExtension.h in Headers */,
+				F6125FFB91CF22B07AEA82092334D974 /* NSData+FYFExtension.h in Headers */,
+				67E3AD1C6D6F369BF1DE340BDAEE97F3 /* NSDate+FYFExtension.h in Headers */,
+				0F3D395D4490D866FB9F6EAFD13BB399 /* NSDecimalNumber+FYFExtension.h in Headers */,
+				D7B73C5BA24BE09D3223F9DCDD3CA742 /* NSDictionary+FYFSafe.h in Headers */,
+				13DBDEAEC28398D67E4F42DADC011EFE /* NSFileManager+FYFExtension.h in Headers */,
+				B66EF5A2E33A64117BF237FBDAB78F76 /* NSMutableAttributedString+FYFExtension.h in Headers */,
+				E5B3B1F1E0FC2488BC7A0BC2AFD01DDD /* NSMutableDictionary+FYFSafe.h in Headers */,
+				768917E65005D3B12F375510A915B115 /* NSObject+FYFExtension.h in Headers */,
+				6F22A387B3F5F8DB7220C5629181C345 /* NSString+FYFExtension.h in Headers */,
+				940666980EBC295D4A15AF9EB1FC5F21 /* UIBarButtonItem+FYFExtension.h in Headers */,
+				DFC7877D75587FE2F85D006D62470788 /* UIButton+FYFExtension.h in Headers */,
+				0AD861AE8A6D4A52F4F3E0942DAAFA36 /* UIColor+FYFExtension.h in Headers */,
+				F62D1049F983F3F3AFC543A852541396 /* UIFont+FYFExtension.h in Headers */,
+				5AC9DF10DA97D46BAC29AE5C5D37F5A6 /* UIImage+FYFExtension.h in Headers */,
+				39695494976B7CBAE98DF25ABB5C6873 /* UILabel+FYFExtension.h in Headers */,
+				97F0E75DF1ECE092C0A05BC93D6497D6 /* UIScreen+FYFExtension.h in Headers */,
+				00773AEB4A7CC62AE26465AECCC9AFB7 /* UITabBarItem+FYFExtension.h in Headers */,
+				EA442F2CBB49F1F145927CD0290D1886 /* UIView+FYFExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72B3F79A0017CF1F15A360219BA0382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461771ED637E7811316E4CE61F772983 /* FYFAesHelper.h in Headers */,
+				8683394F5058954C3F3732D546B22848 /* FYFBase64Helper.h in Headers */,
+				1A857634C6DADB61890A6205DEB43DB7 /* FYFDesHelper.h in Headers */,
+				1466B969767C390078F0D1A74E5CC446 /* FYFEncrypt-umbrella.h in Headers */,
+				7D9B882D2161B77968EA9F6B926D5EE2 /* FYFGTMBase64.h in Headers */,
+				804D29A8A416F291783F3EF8B3B189FC /* FYFGTMDefines.h in Headers */,
+				1CE1DCEAA7C65A1982336C75E03E3D27 /* FYFHexHelper.h in Headers */,
+				E7DAE3B4CA75B958455685439C887463 /* FYFMD5Helper.h in Headers */,
+				60EEF64CA90E1117B3F89EA37E724B10 /* FYFRSA.h in Headers */,
+				A81D4AF1E9167553D2365ADFE3152283 /* FYFRsaHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED283114201405F68747F6F7D4F22E6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202EA6F32234B0B3F5A84057AF50C7FF /* Pods-FYFEncrypt_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		094F2AC341235013908D0347A236F32E /* FYFCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793D06AACC0E8A4F0A341C7E3E28822B /* Build configuration list for PBXNativeTarget "FYFCategory" */;
+			buildPhases = (
+				ACD597DDF43AEE374D2B1A4A59DA7E79 /* Headers */,
+				B21F1CC5385C4C7B92E169E54CF32B0A /* Sources */,
+				DE5C5F6341E5315416F0E2683D81089B /* Frameworks */,
+				CF4640E14512BA503BCF4C77104E45C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYFCategory;
+			productName = FYFCategory;
+			productReference = 0A56B9ACB637D7F6872EB69FB2CE4FF7 /* FYFCategory */;
+			productType = "com.apple.product-type.framework";
+		};
+		32561766C2F6680B4D3B62563D7EA4F8 /* Pods-FYFEncrypt_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1BBBFFCEDA2048A240E698316F2EFF /* Build configuration list for PBXNativeTarget "Pods-FYFEncrypt_Example" */;
+			buildPhases = (
+				3C506E743B88E3AED25348142E1B884E /* Headers */,
+				488DA4A3E37DE712DBF5A1AF768F7C9C /* Sources */,
+				BDC1FD49ADC6719308B8820D656132C7 /* Frameworks */,
+				BCD7DC9746B6CEDACA2B5BDA49D4BF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC4177D707C7C44A7B2E557C856E4B3 /* PBXTargetDependency */,
+				C8C77A2D73815B20FF57F471EF69B79B /* PBXTargetDependency */,
+				36DACE52FEF3CBCD3A35FC2BF106FFB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-FYFEncrypt_Example";
+			productName = Pods_FYFEncrypt_Example;
+			productReference = 558B90A9B2778AF3F547F056FD034350 /* Pods-FYFEncrypt_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D168BD2F4AB95FF99F3C3949129142D /* FYFEncrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199959206FD7457B652CCA486628864C /* Build configuration list for PBXNativeTarget "FYFEncrypt" */;
+			buildPhases = (
+				E72B3F79A0017CF1F15A360219BA0382 /* Headers */,
+				8C233686E4B49694ADE73DE28591C5AF /* Sources */,
+				97E1DA83A64159DB49381D550E891535 /* Frameworks */,
+				96C3371E6AFD1CEFBBE2891E99C2767D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E60BE501C447957D9DBED7B60596C9ED /* PBXTargetDependency */,
+				D734A77E81430DEA746DE6C2C1F8D0E2 /* PBXTargetDependency */,
+			);
+			name = FYFEncrypt;
+			productName = FYFEncrypt;
+			productReference = D04097ABE22C4ABCC05DC4BB53F96781 /* FYFEncrypt */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDF663E2CBE1C0A1EFD93543547875B5 /* Pods-FYFEncrypt_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CBCDB13832B2FEA443E7E2B083D4A83 /* Build configuration list for PBXNativeTarget "Pods-FYFEncrypt_Tests" */;
+			buildPhases = (
+				ED283114201405F68747F6F7D4F22E6E /* Headers */,
+				D505CEE7DEFBF7508CAD078DB3A3AD31 /* Sources */,
+				FFCD679F44D0825C11C1465BE852D34D /* Frameworks */,
+				FF8B355C29FFFE5161F7AF816B573C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1F58B1246143C536F38AADE2396EFD8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FYFEncrypt_Tests";
+			productName = Pods_FYFEncrypt_Tests;
+			productReference = BBF8056334D6D423AA72DE5CF45766EB /* Pods-FYFEncrypt_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9ED6CA0F21E767A12FF159B90C67F315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094F2AC341235013908D0347A236F32E /* FYFCategory */,
+				9D168BD2F4AB95FF99F3C3949129142D /* FYFEncrypt */,
+				99F78A3A0AA605D3995FE29E6B134434 /* FYFOpenSSL */,
+				32561766C2F6680B4D3B62563D7EA4F8 /* Pods-FYFEncrypt_Example */,
+				FDF663E2CBE1C0A1EFD93543547875B5 /* Pods-FYFEncrypt_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C3371E6AFD1CEFBBE2891E99C2767D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD7DC9746B6CEDACA2B5BDA49D4BF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4640E14512BA503BCF4C77104E45C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8B355C29FFFE5161F7AF816B573C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488DA4A3E37DE712DBF5A1AF768F7C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AC36A74FBA20224CF1DED0A61DB479 /* Pods-FYFEncrypt_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C233686E4B49694ADE73DE28591C5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B94C3671A390DF5A678618AF342307A /* FYFAesHelper.m in Sources */,
+				17EBA6EA047350FA993420916AE3D76C /* FYFBase64Helper.m in Sources */,
+				C7722D7480123A0FAF049A0742565BBD /* FYFDesHelper.m in Sources */,
+				E7CE580C94C245A3378D92974E7640AB /* FYFEncrypt-dummy.m in Sources */,
+				8C21EC5F7E4A971017E4CC1EC393815F /* FYFGTMBase64.m in Sources */,
+				CAA88F57FD344F6ABC909541F3F9AD3A /* FYFHexHelper.m in Sources */,
+				F1991E83DAA173677E2821B9AA22E59E /* FYFMD5Helper.m in Sources */,
+				A6EE653F02B9F9F684F8ED25892EBE53 /* FYFRSA.mm in Sources */,
+				E368EF8C7D59358FC5C1DEFD44305F8C /* FYFRsaHelper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21F1CC5385C4C7B92E169E54CF32B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665E43CD8F63A31B8318A7453EBB569E /* CALayer+FYFExtension.m in Sources */,
+				274CA53173C963289B6109ECD502B479 /* FYFCategory-dummy.m in Sources */,
+				C73CC988D5B171A60E8936ED79DD4E64 /* NSArray+FYFExtension.m in Sources */,
+				EFE0BA39D44F1AF15B25CF56AF41DAB1 /* NSData+FYFExtension.m in Sources */,
+				7A81768F3B9F630617886926BF414697 /* NSDate+FYFExtension.m in Sources */,
+				2F720F36C09CDF955A746617125C4F8F /* NSDecimalNumber+FYFExtension.m in Sources */,
+				4926CED51DD3FF176A0D16E5416C0D95 /* NSDictionary+FYFSafe.m in Sources */,
+				C7C03397C2A384D736EC20766D84DB6D /* NSFileManager+FYFExtension.m in Sources */,
+				8443B961F33B287BC6C2B3ADD78C1BA7 /* NSMutableAttributedString+FYFExtension.m in Sources */,
+				B402190D3E27038713B92D385DFF3D8E /* NSMutableDictionary+FYFSafe.m in Sources */,
+				7F5B6774DC23B6138C8F68C011DC10E6 /* NSObject+FYFExtension.m in Sources */,
+				CB69A2165C5DA391DDA57626DBBE2BC7 /* NSString+FYFExtension.m in Sources */,
+				DB1464256C2170D8496595BA1BE38E8C /* UIBarButtonItem+FYFExtension.m in Sources */,
+				EE6A266CF6B7F47CE4A147A3E082D9D8 /* UIButton+FYFExtension.m in Sources */,
+				E362CF3C3F1A5366235A31D6E8484DAD /* UIColor+FYFExtension.m in Sources */,
+				EFE58B7245419DCEF2798B4DD84E0D40 /* UIFont+FYFExtension.m in Sources */,
+				69C13B02CEEDE62259BF1C3DA4C23349 /* UIImage+FYFExtension.m in Sources */,
+				55A35162216A8744D03299CA087F6E6A /* UILabel+FYFExtension.m in Sources */,
+				A01B2D44F124FF5575EA09324CA4E29A /* UIScreen+FYFExtension.m in Sources */,
+				3393EA2670F51090FCF50FAE9E964464 /* UITabBarItem+FYFExtension.m in Sources */,
+				A97333DD651AC518711E27DD4C10400A /* UIView+FYFExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D505CEE7DEFBF7508CAD078DB3A3AD31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA14605A44622F69A821E6E56D6CD5D /* Pods-FYFEncrypt_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36DACE52FEF3CBCD3A35FC2BF106FFB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FYFOpenSSL;
+			target = 99F78A3A0AA605D3995FE29E6B134434 /* FYFOpenSSL */;
+			targetProxy = F4D64D4CCA9D10D40A365F21F41CA265 /* PBXContainerItemProxy */;
+		};
+		C8C77A2D73815B20FF57F471EF69B79B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FYFEncrypt;
+			target = 9D168BD2F4AB95FF99F3C3949129142D /* FYFEncrypt */;
+			targetProxy = 868B3EAAE691B20558E20652886C4DE0 /* PBXContainerItemProxy */;
+		};
+		CDC4177D707C7C44A7B2E557C856E4B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FYFCategory;
+			target = 094F2AC341235013908D0347A236F32E /* FYFCategory */;
+			targetProxy = 557C050862FCA612DB9129AEA70BFA5B /* PBXContainerItemProxy */;
+		};
+		D1F58B1246143C536F38AADE2396EFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FYFEncrypt_Example";
+			target = 32561766C2F6680B4D3B62563D7EA4F8 /* Pods-FYFEncrypt_Example */;
+			targetProxy = B60456123165D12C3CC256F3ED0DD990 /* PBXContainerItemProxy */;
+		};
+		D734A77E81430DEA746DE6C2C1F8D0E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FYFOpenSSL;
+			target = 99F78A3A0AA605D3995FE29E6B134434 /* FYFOpenSSL */;
+			targetProxy = 0A9D7851134A5CC8DA863C9372E0F1E6 /* PBXContainerItemProxy */;
+		};
+		E60BE501C447957D9DBED7B60596C9ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FYFCategory;
+			target = 094F2AC341235013908D0347A236F32E /* FYFCategory */;
+			targetProxy = 545EB87B0DAA99572D6E37E27585F5CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51FB272A6C5B2D1D15DE48E68C1A591A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039429AE2D5B433A385E0D0A51090E0E /* FYFEncrypt.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FYFEncrypt/FYFEncrypt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FYFEncrypt/FYFEncrypt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FYFEncrypt/FYFEncrypt.modulemap";
+				PRODUCT_MODULE_NAME = FYFEncrypt;
+				PRODUCT_NAME = FYFEncrypt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57D67E12A8FC048C947CEC864FE41BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D882127E79DDB2025724BED78375419F /* FYFEncrypt.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FYFEncrypt/FYFEncrypt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FYFEncrypt/FYFEncrypt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FYFEncrypt/FYFEncrypt.modulemap";
+				PRODUCT_MODULE_NAME = FYFEncrypt;
+				PRODUCT_NAME = FYFEncrypt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F3850C71BFADF1C3A0AC055BFB3192E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A1820C581B11DA1EC8EDAFDE3E70FF /* FYFOpenSSL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		617A85A3054A6D92DBBDA61CFFA04876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E41646656589321CB07D2A47FF1992 /* FYFCategory.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FYFCategory/FYFCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FYFCategory/FYFCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FYFCategory/FYFCategory.modulemap";
+				PRODUCT_MODULE_NAME = FYFCategory;
+				PRODUCT_NAME = FYFCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CEB769D7DE1D2C6A5E480CBA16CE659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB07A64D0926E8EB465AD997258C143 /* Pods-FYFEncrypt_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYFEncrypt_Tests/Pods-FYFEncrypt_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYFEncrypt_Tests/Pods-FYFEncrypt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E028E38139353E0BA7724B743CEEF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126C9589A6D6992A4C6989ECC0667FF9 /* FYFOpenSSL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73A2461C86154C86CCF3DD6D902FC6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A91FC63E9A3817D6DCB7C828FE5116A /* FYFCategory.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FYFCategory/FYFCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FYFCategory/FYFCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FYFCategory/FYFCategory.modulemap";
+				PRODUCT_MODULE_NAME = FYFCategory;
+				PRODUCT_NAME = FYFCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A738EA507E6766324A709CFF6C89C985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB2EDAB86FD3332A1BFF43DADFB73D2 /* Pods-FYFEncrypt_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYFEncrypt_Tests/Pods-FYFEncrypt_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYFEncrypt_Tests/Pods-FYFEncrypt_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B251931F6F0C0A50BB949EF3AEF6F139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7C1D7E12945279E58B73FCCC690C39 /* Pods-FYFEncrypt_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYFEncrypt_Example/Pods-FYFEncrypt_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYFEncrypt_Example/Pods-FYFEncrypt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D80E94D4EB92F3D2D7BDC748B027736D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D9FDD2CF06EDED4E98B1ABA82DC598 /* Pods-FYFEncrypt_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYFEncrypt_Example/Pods-FYFEncrypt_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYFEncrypt_Example/Pods-FYFEncrypt_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199959206FD7457B652CCA486628864C /* Build configuration list for PBXNativeTarget "FYFEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FB272A6C5B2D1D15DE48E68C1A591A /* Debug */,
+				57D67E12A8FC048C947CEC864FE41BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CBCDB13832B2FEA443E7E2B083D4A83 /* Build configuration list for PBXNativeTarget "Pods-FYFEncrypt_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEB769D7DE1D2C6A5E480CBA16CE659 /* Debug */,
+				A738EA507E6766324A709CFF6C89C985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793D06AACC0E8A4F0A341C7E3E28822B /* Build configuration list for PBXNativeTarget "FYFCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617A85A3054A6D92DBBDA61CFFA04876 /* Debug */,
+				73A2461C86154C86CCF3DD6D902FC6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFBDCD041B4D086C6F9200EFF95E0AA /* Build configuration list for PBXAggregateTarget "FYFOpenSSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3850C71BFADF1C3A0AC055BFB3192E /* Debug */,
+				6E028E38139353E0BA7724B743CEEF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1BBBFFCEDA2048A240E698316F2EFF /* Build configuration list for PBXNativeTarget "Pods-FYFEncrypt_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80E94D4EB92F3D2D7BDC748B027736D /* Debug */,
+				B251931F6F0C0A50BB949EF3AEF6F139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

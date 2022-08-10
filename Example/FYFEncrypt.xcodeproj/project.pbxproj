@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FBD8F4928A38B270095EB4C /* rsa_private_key_pkcs8.pem in Resources */ = {isa = PBXBuildFile; fileRef = 0FBD8F4628A38B270095EB4C /* rsa_private_key_pkcs8.pem */; };
+		0FBD8F4A28A38B270095EB4C /* rsa_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 0FBD8F4728A38B270095EB4C /* rsa_private_key.pem */; };
+		0FBD8F4B28A38B270095EB4C /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 0FBD8F4828A38B270095EB4C /* rsa_public_key.pem */; };
 		1ECADA847FA18615349D04FF /* Pods_FYFEncrypt_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FFD99B4F7795EFEF743545 /* Pods_FYFEncrypt_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FBD8F4628A38B270095EB4C /* rsa_private_key_pkcs8.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_private_key_pkcs8.pem; sourceTree = "<group>"; };
+		0FBD8F4728A38B270095EB4C /* rsa_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_private_key.pem; sourceTree = "<group>"; };
+		0FBD8F4828A38B270095EB4C /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
 		1E3628C10EBB223129AE96A9 /* Pods-FYFEncrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFEncrypt_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FYFEncrypt_Tests/Pods-FYFEncrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30FFD99B4F7795EFEF743545 /* Pods_FYFEncrypt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFEncrypt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B34FBC9190BD7C4286EA20D /* Pods-FYFEncrypt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFEncrypt_Example.debug.xcconfig"; path = "Target Support Files/Pods-FYFEncrypt_Example/Pods-FYFEncrypt_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,9 +69,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		890C4AACD55FA8805B12DD99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9C7F4397054B9E9B984B76C4 /* FYFEncrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FYFEncrypt.podspec; path = ../FYFEncrypt.podspec; sourceTree = "<group>"; };
-		A96EAEA0E0E5D7B7EBD54FAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		890C4AACD55FA8805B12DD99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9C7F4397054B9E9B984B76C4 /* FYFEncrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FYFEncrypt.podspec; path = ../FYFEncrypt.podspec; sourceTree = "<group>"; };
+		A96EAEA0E0E5D7B7EBD54FAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F521566CE6790D50018B4C97 /* Pods_FYFEncrypt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFEncrypt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FBD8F4528A38B270095EB4C /* Certs */ = {
+			isa = PBXGroup;
+			children = (
+				0FBD8F4628A38B270095EB4C /* rsa_private_key_pkcs8.pem */,
+				0FBD8F4728A38B270095EB4C /* rsa_private_key.pem */,
+				0FBD8F4828A38B270095EB4C /* rsa_public_key.pem */,
+			);
+			path = Certs;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +153,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FYFViewController.h */,
 				6003F5A6195388D20070C39A /* FYFViewController.m */,
+				0FBD8F4528A38B270095EB4C /* Certs */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +210,6 @@
 				1E3628C10EBB223129AE96A9 /* Pods-FYFEncrypt_Tests.debug.xcconfig */,
 				4025C565753DD4471741AC48 /* Pods-FYFEncrypt_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +274,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,9 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FBD8F4928A38B270095EB4C /* rsa_private_key_pkcs8.pem in Resources */,
+				0FBD8F4A28A38B270095EB4C /* rsa_private_key.pem in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				0FBD8F4B28A38B270095EB4C /* rsa_public_key.pem in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,11 +366,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FYFEncrypt_Example/Pods-FYFEncrypt_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FYFEncrypt/FYFEncrypt.framework",
+				"${BUILT_PRODUCTS_DIR}/FYFCategory/FYFCategory.framework",
+				"${PODS_ROOT}/FYFOpenSSL/FYFOpenSSL/Framework/OpenSSL.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FYFEncrypt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FYFCategory.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

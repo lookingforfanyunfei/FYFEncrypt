@@ -25,18 +25,66 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '786452470@qq.com' => 'fyf786452470@gmail.com' }
-  s.source           = { :git => 'https://github.com/786452470@qq.com/FYFEncrypt.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lookingforfanyunfei/FYFEncrypt.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'FYFEncrypt/Classes/**/*'
+  # s.source_files = 'FYFEncrypt/Classes/**/*'
+  # 组件支持的架构，并且module化，为后期组件混编做准备，也为了规范化管理
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' => 'arm64e arm64 armv7 armv7s x86_64',
+    'DEFINES_MODULE' => 'YES'
+  }
   
-  # s.resource_bundles = {
-  #   'FYFEncrypt' => ['FYFEncrypt/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # 组件支持swift混编的版本
+  s.swift_versions = ['5.1', '5.2','5.3', '5.4']
+  s.static_framework = true
+  # 默认base64, md5
+  s.default_subspecs = ['base64','md5']
+  
+  s.subspec 'base64' do |sp|
+    sp.source_files = ['FYFEncrypt/Classes/base64/*.{h,m}','FYFEncrypt/Classes/base64/gtm/*.{h,m}']
+    sp.public_header_files = 'FYFEncrypt/Classes/base64/*.h'
+    
+  end
+  
+  s.subspec 'aes' do |sp|
+    sp.source_files = ['FYFEncrypt/Classes/aes/*.{h,m}']
+    sp.public_header_files = 'FYFEncrypt/Classes/aes/*.h'
+    sp.dependency 'FYFEncrypt/base64'
+    
+  end
+  
+  
+  s.subspec 'des' do |sp|
+    sp.source_files = ['FYFEncrypt/Classes/des/*.{h,m}']
+    sp.public_header_files = 'FYFEncrypt/Classes/des/*.h'
+    sp.dependency 'FYFEncrypt/base64'
+    
+  end
+  
+  s.subspec 'hex' do |sp|
+    sp.source_files = ['FYFEncrypt/Classes/hex/*.{h,m}']
+    sp.public_header_files = 'FYFEncrypt/Classes/hex/*.h'
+    
+  end
+  
+  s.subspec 'md5' do |sp|
+    sp.source_files = ['FYFEncrypt/Classes/md5/*.{h,m}']
+    sp.public_header_files = 'FYFEncrypt/Classes/md5/*.h'
+    
+  end
+  
+  s.subspec 'rsa' do |sp|
+    sp.source_files = ['FYFEncrypt/Classes/rsa/*.{h,m,mm}']
+    sp.public_header_files = 'FYFEncrypt/Classes/rsa/*.h'
+    sp.libraries =  'c++'
+    sp.dependency 'FYFOpenSSL'
+    sp.dependency 'FYFEncrypt/hex'
+    
+  end
+  
+  s.dependency 'FYFCategory'
+  
 end

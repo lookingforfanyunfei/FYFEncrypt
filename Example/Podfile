@@ -4,7 +4,12 @@ platform :ios, '10.0'
 
 target 'FYFEncrypt_Example' do
   pod 'FYFEncrypt', :path => '../'
-
+  pod 'FYFEncrypt/aes', :path => '../'
+  pod 'FYFEncrypt/des', :path => '../'
+  pod 'FYFEncrypt/rsa', :path => '../'
+  pod 'FYFEncrypt/hex', :path => '../'
+  pod 'FYFEncrypt/md5', :path => '../'
+  
   target 'FYFEncrypt_Tests' do
     inherit! :search_paths
 
