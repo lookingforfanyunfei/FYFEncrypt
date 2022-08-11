@@ -35,7 +35,7 @@
   ],
   "dependencies": {
     "FYFCategory": [
-
+      "~> 0.1.6"
     ]
   },
   "subspecs": [
@@ -94,7 +94,7 @@
       "libraries": "c++",
       "dependencies": {
         "FYFOpenSSL": [
-
+          "~> 1.1.1q"
         ],
         "FYFEncrypt/hex": [
 

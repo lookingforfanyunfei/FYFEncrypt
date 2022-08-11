@@ -80,11 +80,11 @@ TODO: Add long description of the pod here.
     sp.source_files = ['FYFEncrypt/Classes/rsa/*.{h,m,mm}']
     sp.public_header_files = 'FYFEncrypt/Classes/rsa/*.h'
     sp.libraries =  'c++'
-    sp.dependency 'FYFOpenSSL'
+    sp.dependency 'FYFOpenSSL', '~> 1.1.1q'
     sp.dependency 'FYFEncrypt/hex'
     
   end
   
-  s.dependency 'FYFCategory'
+  s.dependency 'FYFCategory','~> 0.1.6'
   
 end

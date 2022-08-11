@@ -1,26 +1,26 @@
 PODS:
-  - FYFCategory (0.1.5)
+  - FYFCategory (0.1.6)
   - FYFEncrypt (0.1.0):
-    - FYFCategory
+    - FYFCategory (~> 0.1.6)
     - FYFEncrypt/base64 (= 0.1.0)
     - FYFEncrypt/md5 (= 0.1.0)
   - FYFEncrypt/aes (0.1.0):
-    - FYFCategory
+    - FYFCategory (~> 0.1.6)
     - FYFEncrypt/base64
   - FYFEncrypt/base64 (0.1.0):
-    - FYFCategory
+    - FYFCategory (~> 0.1.6)
   - FYFEncrypt/des (0.1.0):
-    - FYFCategory
+    - FYFCategory (~> 0.1.6)
     - FYFEncrypt/base64
   - FYFEncrypt/hex (0.1.0):
-    - FYFCategory
+    - FYFCategory (~> 0.1.6)
   - FYFEncrypt/md5 (0.1.0):
-    - FYFCategory
+    - FYFCategory (~> 0.1.6)
   - FYFEncrypt/rsa (0.1.0):
-    - FYFCategory
+    - FYFCategory (~> 0.1.6)
     - FYFEncrypt/hex
-    - FYFOpenSSL
-  - FYFOpenSSL (0.1.0)
+    - FYFOpenSSL (~> 1.1.1q)
+  - FYFOpenSSL (1.1.1q)
 
 DEPENDENCIES:
   - FYFEncrypt (from `../`)
@@ -40,9 +40,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FYFCategory: 38302e7ca717ac37570e668a3767fb486a50b20d
-  FYFEncrypt: 8b4a59cf36f82b9633bddd2987774755ef58fe3a
-  FYFOpenSSL: 9f32545bbe4b522dd08e10c00bccb4e17b1bf103
+  FYFCategory: fe5653b3ba7b23c4c32a0dcb52c864b8734b8a1c
+  FYFEncrypt: 15834ad5d61c75405ae8f5aef6bd750b0c520e1f
+  FYFOpenSSL: 8a381e60c6da2e2545c5aab198d13002e58dbe0a
 
 PODFILE CHECKSUM: 2aef4bb51220ee4b1588b0d9681116d950b8684a
 
